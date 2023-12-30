@@ -31,7 +31,7 @@
     };
 
     default_transform: matrix_transform {
-        compatible = "zmk,matrix-matrix_transform";
+        compatible = "zmk,matrix-transform";
         rows = <4>;
         columns = <12>;
         // | MX1 | MX2 | MX3 | MX4 | MX5 | MX6 | MX7 | MX8 | MX9 | MX10 | MX11 |       MX12      |
