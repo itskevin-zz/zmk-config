@@ -1,0 +1,6 @@
+if SHIELD_NDK40
+
+config ZMK_KEYBOARD_NAME
+    default "ndk40"
+
+endif
