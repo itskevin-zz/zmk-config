@@ -58,7 +58,7 @@
             #bindings-cells = <2>;
             tapping_terms_ms = <135>;
             quick_tap_ms = <0>;
-            flavor = "tap_preferred";
+            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
     };
