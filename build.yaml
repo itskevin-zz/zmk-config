@@ -20,5 +20,3 @@
 include:
   - board: nice_nano_v2
     shield: ndk40
-  - board: nice_nano_v2
-    shield: settings_reset
