@@ -116,10 +116,10 @@
 
         lower_layer {
             bindings = <
-                &kp GRAVE  &as NUMBER_1  &as NUMBER_2  &as NUMBER_3  &as NUMBER_4  &as NUMBER_5  &as NUMBER_6  &as NUMBER_7  &as NUMBER_8  &as NUMBER_9  &as NUMBER_0  &none
-                &kp TAB    &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &kp CARET     &kp AMPS      &kp STAR      &kp LPAR      &kp RPAR      &none  
-                &kp LSHFT  &none         &none         &none         &none         &none         &none         &none         &as LBKT      &as RBKT      &as SQT     &as BSLH  
-                &kp LCTRL  &kp LALT      &kp LGUI      &none         &none                       &none                       &none         &none         &as MINUS     &none
+                &kp GRAVE  &as NUMBER_1  &as NUMBER_2  &as NUMBER_3  &as NUMBER_4  &as NUMBER_5  &as NUMBER_6  &as NUMBER_7  &as NUMBER_8  &as NUMBER_9  &as NUMBER_0  &as MINUS
+                &kp TAB    &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &kp CARET     &kp AMPS      &kp STAR      &kp LPAR      &kp RPAR      &as SQT  
+                &kp LSHFT  &none         &none         &none         &none         &none         &none         &none         &as LBKT      &as RBKT      &as EQUAL     &as BSLH  
+                &kp LCTRL  &kp LALT      &kp LGUI      &none         &none                       &none                       &none         &none         &none     &none
             >;
         };
 
