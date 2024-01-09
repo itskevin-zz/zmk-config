@@ -55,7 +55,6 @@
             label = "AUTOSHIFT_HOLD_TAP";
             #binding-cells = <2>;
             tapping-term-ms = <175>;
-            global-quick-tap;
             bindings = <&shifted>, <&kp>;
         };
     };
@@ -110,7 +109,7 @@
             bindings = <
                 &kp ESC    &kp Q    &kp W    &kp E  &kp R  &kp T      &kp Y  &kp U     &kp I     &kp O      &kp P      &kp BSPC  
                 &kp TAB    &kp A    &kp S    &kp D  &kp F  &kp G      &kp H  &kp J     &kp K     &kp L      &as SQT    &kp RET
-                &kp LSHFT  &kp Z    &kp X    &kp C  &kp V  &kp B      &kp N  &kp M     &as COMMA &as DOT    &kp UP     &as FSLH  
+                &kp LSHFT  &kp Z    &kp X    &kp C  &kp V  &kp B      &kp N  &kp M     &as COMMA &kp DOT    &kp UP     &as FSLH  
                 &kp LCTRL  &kp LALT &kp LGUI &mo 2  &mo 3             &kp SPACE        &mo 1     &kp LEFT   &kp DOWN   &kp RIGHT
             >;
         };
