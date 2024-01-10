@@ -70,8 +70,8 @@
                 <&macro_press &mo 2>,
                 <&macro_press &kp LSHFT &kp LGUI>,
                 <&macro_tap AS(NUMBER_4)>,
-                <&macr_release &kp LSHFT &kp LGUI>,
-                <&macr_release &mo 2>;
+                <&macro_release &kp LSHFT &kp LGUI>,
+                <&macro_release &mo 2>;
         };
     }; // macros
 
