@@ -63,7 +63,7 @@
     }; // behaviors
 
     macros {
-        mac_pscrn {
+        mac_pscrn: mac_pscrn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
