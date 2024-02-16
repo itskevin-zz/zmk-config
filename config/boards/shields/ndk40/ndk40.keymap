@@ -67,11 +67,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
-                <&macro_press &mo 2>,
                 <&macro_press &kp LSHFT &kp LGUI>,
+                <&macro_press &mo 2>,
                 <&macro_tap &kp 5>,
-                <&macro_release &kp LSHFT &kp LGUI>,
-                <&macro_release &mo 2>;
+                <&macro_release &mo 2>,
+                <&macro_release &kp LSHFT &kp LGUI>;
         };
     }; // macros
 
