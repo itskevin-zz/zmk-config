@@ -104,19 +104,19 @@
 
         raise_layer {
             bindings = <
-                &kp GRAVE  &as NUMBER_1  &as NUMBER_2  &as NUMBER_3  &as NUMBER_4  &as NUMBER_5  &as NUMBER_6  &as NUMBER_7  &as NUMBER_8  &as NUMBER_9  &as NUMBER_0  &trans
-                &kp TAB    &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &kp CARET     &kp AMPS      &kp STAR      &kp LPAR      &kp RPAR      &as SEMI  
-                &kp LSHFT  &none         &none         &none         &none         &none         &none         &as EQUAL     &as LBKT      &as RBKT      &as MINUS     &as BSLH  
-                &kp LCTRL  &kp LALT      &kp LGUI      &none         &none                       &none                       &none         &none         &none         &none
+                AS(GRAVE)  AS(NUMBER_1)  AS(NUMBER_2)  AS(NUMBER_3)  AS(NUMBER_4)  AS(NUMBER_5)  AS(NUMBER_6)  AS(NUMBER_7)  AS(NUMBER_8)  AS(NUMBER_9)  AS(NUMBER_0)  AS(MINUS)
+                &kp TAB    &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &kp CARET     &kp AMPS      &kp STAR      AS(LPAR)      AS(RPAR)      AS(SEMI)  
+                &kp LSHFT  &none         &none         &none         &none         &none         &none         &none         AS(LBKT)      AS(RBKT)      AS(EQUAL)     AS(BSLH)  
+                &kp LCTRL  &kp LALT      &kp LGUI      &none         &none                       &none                       &kp RGUI      &kp RALT      &kp RCTRL     &none
             >;
         };
 
         lower_layer {
             bindings = <
-                &kp ESC    &none         &none         &none         &none         &none         &none         &none         &kp INS       &none    &kp PSCRN     &trans  
-                &kp TAB    &none         &none         &kp F3        &kp F4        &kp F5        &kp F6        &kp F7        &none         &none         &none         &none 
-                &kp LSHFT  &none         &none         &none         &none         &none         &none         &none         &none         &kp C_PLAY    &kp C_VOL_UP  &kp C_MUTE   
-                &kp LCTRL  &kp LALT      &kp LGUI      &none         &none                       &none                       &none         &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP 
+                &kp ESC    &none         &none         &none         &none         &none         &none         &none         &kp INS       &none            &kp PSCRN     &kp DEL  
+                &kp TAB    &kp C_BRI_UP  &none         &kp F3        &kp F4        &kp F5        &kp F6        &kp F7        &kp C_PLAY    &none            &none         &none  
+                &kp LSHFT  &none         &none         &none         &none         &none         &none         &none         &none         &none            &kp C_VOL_UP  &kp C_MUTE  
+                &kp LCTRL  &kp LALT      &kp LGUI      &none         &none                       &none                       &none         &kp C_BRI_UP     &kp C_VOL_DN         &kp C_BRI_DN 
             >;
         };
     };
