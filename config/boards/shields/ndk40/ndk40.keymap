@@ -62,18 +62,18 @@
         };
     }; // behaviors
 
-    macros {
-        mac_pscrn: mac_pscrn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = 
-                <&macro_press &mo 2>,
-                <&macro_press &kp LSHFT &kp LGUI>,
-                <&macro_tap &kp 5>,
-                <&macro_release &kp LSHFT &kp LGUI>,
-                <&macro_release &mo 2>;
-        };
-    }; // macros
+    // macros {
+    //     mac_pscrn: mac_pscrn {
+    //         compatible = "zmk,behavior-macro";
+    //         #binding-cells = <0>;
+    //         bindings = 
+    //             <&macro_press &mo 2>,
+    //             <&macro_press &kp LSHFT &kp LGUI>,
+    //             <&macro_tap &kp 5>,
+    //             <&macro_release &kp LSHFT &kp LGUI>,
+    //             <&macro_release &mo 2>;
+    //     };
+    // }; // macros
 
     keymap {
         compatible = "zmk,keymap";
@@ -113,7 +113,7 @@
 
         lower_layer {
             bindings = <
-                &kp ESC    &none         &none         &none         &none         &none         &none         &none         &kp INS       &mac_pscrn    &kp PSCRN     &trans  
+                &kp ESC    &none         &none         &none         &none         &none         &none         &none         &kp INS       &none    &kp PSCRN     &trans  
                 &kp TAB    &none         &none         &kp F3        &kp F4        &kp F5        &kp F6        &kp F7        &none         &none         &none         &none 
                 &kp LSHFT  &none         &none         &none         &none         &none         &none         &none         &none         &kp C_PLAY    &kp C_VOL_UP  &kp C_MUTE   
                 &kp LCTRL  &kp LALT      &kp LGUI      &none         &none                       &none                       &none         &kp C_BRI_DN  &kp C_VOL_DN  &kp C_BRI_UP 
