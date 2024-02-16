@@ -63,14 +63,15 @@
     }; // behaviors
 
     macros {
-        mac_prt_sc {
+        mac_pscrn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = 
                 <&macro_press &mo 2>,
                 <&macro_press &kp LSHFT &kp LGUI>,
                 <&macro_tap &kp 5>,
-                <&macro_release &kp LSHFT &kp LGUI>;
+                <&macro_release &kp LSHFT &kp LGUI>,
+                <&macro_release &mo 2>;
         };
     }; // macros
 
