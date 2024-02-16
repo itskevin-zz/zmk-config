@@ -69,7 +69,7 @@
             bindings = 
                 <&macro_press &kp LSHFT &kp LCTRL>,
                 <&macro_press &mo 2>,
-                <&macro_tap &kp 5>,
+                <&macro_tap AS(NUMBER_5)>,
                 <&macro_release &mo 2>,
                 <&macro_release &kp LSHFT &kp LCTRL>;
         };
