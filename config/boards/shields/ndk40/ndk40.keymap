@@ -104,8 +104,8 @@
 
         raise_layer {
             bindings = <
-                AS(GRAVE)  AS(NUMBER_1)  AS(NUMBER_2)  AS(NUMBER_3)  AS(NUMBER_4)  AS(NUMBER_5)  AS(NUMBER_6)  AS(NUMBER_7)  AS(NUMBER_8)  AS(NUMBER_9)  AS(NUMBER_0)  &kp BSPC
-                &kp TAB    &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &kp CARET     &kp AMPS      &kp STAR      AS(LPAR)      AS(RPAR)      AS(SEMI)  
+                AS(GRAVE)  AS(NUMBER_1)  AS(NUMBER_2)  AS(NUMBER_3)  AS(NUMBER_4)  AS(NUMBER_5)  AS(NUMBER_6)  AS(NUMBER_7)  AS(NUMBER_8)  AS(NUMBER_9)  AS(NUMBER_0)  AS(SEMI)
+                &kp TAB    &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &kp CARET     &kp AMPS      &kp STAR      AS(LPAR)      AS(RPAR)      &none 
                 &kp LSHFT  &none         &none         &none         &none         &none         &none         &none         AS(LBKT)      AS(RBKT)      AS(EQUAL)     AS(BSLH)  
                 &kp LCTRL  &kp LALT      &kp LGUI      &none         &none                       &trans                      &kp RGUI      &kp RALT      &kp RCTRL     AS(MINUS)
             >;
